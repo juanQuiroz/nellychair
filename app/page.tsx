@@ -129,12 +129,12 @@ export default function DeisyWebsite() {
               className={`space-y-4 sm:space-y-6 text-center md:text-left ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
             >
               <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-                <span className="text-[#D64545]">Deisy</span> — Manzanas premium
+                <span className="text-[#D64545]">Deyssi</span> — Frutas premium
                 de <span className="text-[#2E8B57]">Yauyos</span>
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-lg mx-auto md:mx-0">
-                Manzanas de altura, sabor incomparable. Suministro confiable
-                para mercados y negocios.
+                Manzanas, paltas y chirimoya de altura, sabor incomparable.
+                Suministro confiable para mercados y negocios.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2">
                 <Button
@@ -177,7 +177,7 @@ export default function DeisyWebsite() {
               Nuestra Historia
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-              Somos una empresa familiar dedicada a la distribución de manzanas
+              Somos una empresa familiar dedicada a la distribución de frutas
               premium desde el corazón de Yauyos
             </p>
           </div>
@@ -193,7 +193,7 @@ export default function DeisyWebsite() {
               <CardContent className="pt-0">
                 <p className="text-gray-600 text-center text-sm sm:text-base leading-relaxed">
                   Tres generaciones dedicadas al cultivo y distribución de
-                  manzanas, manteniendo tradiciones familiares y valores de
+                  frutas, manteniendo tradiciones familiares y valores de
                   calidad.
                 </p>
               </CardContent>
@@ -206,7 +206,7 @@ export default function DeisyWebsite() {
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-gray-600 text-center text-sm sm:text-base leading-relaxed">
-                  Nuestras manzanas provienen directamente de los valles de
+                  Nuestras frutas provienen directamente de los valles de
                   Yauyos, donde el clima y la altitud crean condiciones
                   perfectas.
                 </p>
@@ -222,7 +222,7 @@ export default function DeisyWebsite() {
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-gray-600 text-center text-sm sm:text-base leading-relaxed">
-                  Cada manzana es seleccionada cuidadosamente, garantizando
+                  Cada fruta es seleccionada cuidadosamente, garantizando
                   frescura, sabor y la mejor presentación para nuestros
                   clientes.
                 </p>
@@ -240,7 +240,7 @@ export default function DeisyWebsite() {
               Nuestras Variedades
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-              Ofrecemos las mejores variedades de manzanas, cada una con
+              Ofrecemos las mejores variedades de frutas, cada una con
               características únicas y sabores excepcionales
             </p>
           </div>
@@ -356,7 +356,7 @@ export default function DeisyWebsite() {
                       Origen Yauyos
                     </h3>
                     <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                      Nuestras manzanas crecen en los valles de Yauyos, a más de
+                      Nuestras frutas crecen en los valles de Yauyos, a más de
                       3,000 metros de altitud, donde las condiciones climáticas
                       únicas desarrollan sabores excepcionales.
                     </p>
@@ -373,7 +373,7 @@ export default function DeisyWebsite() {
                       Selección Rigurosa
                     </h3>
                     <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                      Cada manzana pasa por un proceso de selección manual,
+                      Cada frtas pasa por un proceso de selección manual,
                       garantizando que solo las frutas de primera calidad
                       lleguen a nuestros clientes.
                     </p>
@@ -501,7 +501,7 @@ export default function DeisyWebsite() {
               {
                 name: "Ana Rodríguez",
                 business: "Distribuidora Norte",
-                text: "La variedad y calidad de las manzanas de Yauyos que ofrece Deisy es incomparable. Recomiendo sus productos sin dudarlo.",
+                text: "La variedad y calidad de las paltas de Yauyos que ofrece Deisy es incomparable. Recomiendo sus productos sin dudarlo.",
                 rating: 5,
               },
             ].map((testimonial, index) => (
