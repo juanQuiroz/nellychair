@@ -55,7 +55,7 @@ export default function DeisyWebsite() {
         <div className="container mx-auto px-4 py-3 sm:py-4">
           <div className="flex items-center justify-between">
             <div className="text-xl sm:text-2xl font-bold text-[#D64545]">
-              Deisy
+              Deyssi
             </div>
 
             {/* Desktop Menu */}
@@ -248,27 +248,27 @@ export default function DeisyWebsite() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
-                name: "Fuji",
+                name: "Manzana Delicia",
                 description:
-                  "Dulce y crujiente, perfecta para consumo directo. Excelente conservación.",
+                  "Manzana roja, dulce y jugosa, excelente capacidad de conservación.",
                 presentation: "Cajas de 18-20 kg",
-                image: "manzanas Fuji rojas y amarillas",
+                image: "Manazanas Delicia",
                 imagePath: "./apple-fuji.jpg",
               },
               {
-                name: "Gala",
+                name: "Manzana Santa Rosa",
                 description:
-                  "Sabor equilibrado entre dulce y ácido. Ideal para toda la familia.",
+                  "Manza verde, dulce y crujiente, con presentación impecable.",
                 presentation: "Cajas de 18-20 kg",
-                image: "manzanas Gala rayadas rojas y amarillas",
+                image: "Manazanas Santa Rosa",
                 imagePath: "./apple-gala.jpg",
               },
               {
-                name: "Red Delicious",
+                name: "Manzana Winter",
                 description:
-                  "Clásica manzana roja, dulce y aromática. Presentación impecable.",
+                  "Variedad suave y aromática, perfecta para el consumo diario.",
                 presentation: "Cajas de 18-20 kg",
-                image: "manzanas Red Delicious rojas brillantes",
+                image: "Manzanas winter",
                 imagePath: "./apple-redDelicious.jpg",
               },
               {
@@ -280,20 +280,20 @@ export default function DeisyWebsite() {
                 imagePath: "./apple-granny.jpeg",
               },
               {
-                name: "Golden",
+                name: "Palta",
                 description:
-                  "Dulce y jugosa, con piel dorada característica. Muy versátil.",
-                presentation: "Cajas de 18-20 kg",
-                image: "manzanas Golden amarillas doradas",
-                imagePath: "./apple-golden.jpg",
+                  "Cremosa y nutritiva  Versátil en la cocina, desde ensaladas hasta preparaciones gourmet.",
+                presentation: "Según termporada",
+                image: "Paltas",
+                imagePath: "./palta.jpg",
               },
               {
-                name: "Criolla",
+                name: "Chirimoya",
                 description:
-                  "Variedad local de Yauyos, sabor único y auténtico del Perú.",
-                presentation: "Cajas de 18-20 kg",
-                image: "manzanas criollas peruanas de Yauyos",
-                imagePath: "./apple-criolla.jpg",
+                  "Fruta tropical de pulpa blanca y jugosa, con un dulzor natural que la convierte en una de las más apreciadas del Perú.",
+                presentation: "Según termporada",
+                image: "Chirimoyas",
+                imagePath: "./chirimoya.jpg",
               },
             ].map((variety, index) => (
               <Card key={variety.name} className="hover-lift">
